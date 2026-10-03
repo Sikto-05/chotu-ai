@@ -1,0 +1,40 @@
+# Environment & secrets
+.env
+*.env
+
+# User data (personal — not committed)
+data/config.json
+data/chotu_memory.db
+data/voice_samples/
+data/*.log
+memory/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Compiled
+*.exe
+*.spec
+CHOTU-AI-*.zip
